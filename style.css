@@ -1,0 +1,164 @@
+
+.pass {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.pass:hover {
+  text-decoration: underline;
+}
+
+select:hover {
+    background: rgb(85, 85, 85);
+}
+
+button {
+    width: 90%;
+    height: 50%;
+    padding: 25px 25px;
+    border: none;
+    background: #e2b522;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #e9f4fb;
+    cursor: pointer;
+    outline: none;
+    font-weight: 1000;
+}
+
+button:hover {
+    background-color: #000000;
+
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left{
+    left: 0;
+    background-color: white;
+}
+
+.right{
+    right: 0;
+    background: linear-gradient(90deg, #080808, rgb(83, 83, 83));
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.body-login {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(90deg, #080808, rgb(163, 163, 163));
+}
+
+.body-success {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, #13b443, rgb(99, 226, 120));
+    overflow: hidden;
+}
+
+.body-failure {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, #cf0d0d, #000000);
+    overflow: hidden;
+}
+
+.div-table {
+    padding: 40px 40px;
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    width : 50%;
+    background: white;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    box-shadow : 10px 10px 15px rgba(0,0,0,0.05);
+}
+
+.div-table h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.div-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+
+.div-login h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.div-login form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.background-dog {
+    background-image: url(dog.jpg);
+}
+
+div {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
